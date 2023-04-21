@@ -18,4 +18,4 @@ curl https://raw.githubusercontent.com/nik0chan/customiza/main/zshrc > $HOME/.zs
 echo" Configurrando el perfil de power10k"
 curl https://raw.githubusercontent.com/nik0chan/customiza/main/p10k.zsh > $HOME/.p10k.zsh
 echo "Estableciendo zsh como shell por defecto"
-sudo chsh -s $(which zsh)
+sudo chsh -s $(which zsh) $USER
