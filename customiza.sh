@@ -8,7 +8,7 @@ echo "Instalando tema powerlevel10k"
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 #sed -i "s/^ZSH_THEME.*/ZSH_THEME=\"powerlevel10k\/powerlevel10k\"/g" $HOME/.zshrc
 echo" Configurrando el perfil de power10k"
-curl -O $HOME/.p10k.zsh https://raw.githubusercontent.com/nik0chan/customiza/p10k.zsh
+curl  https://raw.githubusercontent.com/nik0chan/customiza/p10k.zsh > $HOME/.p10k.zsh
 
 echo "Instalando plugins zsh"
 echo "Syntax Highlighting"
