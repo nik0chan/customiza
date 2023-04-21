@@ -1,7 +1,7 @@
 #!/bin/sh 
 
 # Instalando zsh + dependencias
-sudo apt-get install zsh curl git -y 
+sudo apt-get -y install zsh curl git  
 zsh
 # Estableciendo zsh como shell por defecto
 
