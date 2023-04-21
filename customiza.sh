@@ -19,4 +19,4 @@ echo "Configurando zshrc"
 curl https://raw.githubusercontent.com/nik0chan/customiza/main/zshrc > $HOME/.zshrc
 
 echo "Estableciendo zsh como shell por defecto"
-chsh -s $(which zsh)
+sudo chsh -s $(which zsh)
